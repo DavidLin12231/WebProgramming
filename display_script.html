@@ -1,0 +1,14 @@
+ <script>
+    document.getElementById("commentForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // stop page reload
+
+      const name = document.getElementById("name").value;
+      const comment = document.getElementById("comment").value;
+
+      document.getElementById("output").innerHTML = `
+        <h3>Thank you for your comment!</h3>
+        <p><strong>${name}</strong> wrote:</p>
+        <p>${comment}</p>
+      `;
+    });
+  </script>
