@@ -13,5 +13,4 @@ for (let i = 0; i < 5; i++) {
         console.log("Try again")
         console.log(`Your score is now ${score}.`)
     }
-    console.log(`Your grade for the score is ${20*score};
 }
